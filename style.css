@@ -14,12 +14,30 @@ body {
     background: rgb(38, 59, 58);
 }
 
+.button-container {
+
+    
+}
+
 #button {
     font-family: 'Ranchers', cursive;
+    cursor: pointer;
     font-size: 3rem;
     padding: 2vh 2vw;
     border-radius: 10%;
     border: none;
     background: rgba(0, 0, 0, 0);
-    box-shadow: 0 0 2vh 0 rgb(0, 0, 0);
+    box-shadow: 0 0 1vh 0 rgb(0, 0, 0);
+    outline: none;
+    color: white;
+    text-shadow: 0 0 1vh black;
+    transition: 0.2s ease;
+}
+
+#button:hover {
+    color:rgb(38, 59, 58); 
+}
+
+#button:active {
+    transform: scale(0.9);
 }
